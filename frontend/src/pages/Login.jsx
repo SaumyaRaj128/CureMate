@@ -114,7 +114,7 @@ const Login = () => {
           <a
             href={
               import.meta.env.MODE === 'production'
-                ? 'https://curemate-admin.vercel.app/'
+                ? 'https://cure-mate-k7bn.vercel.app/'
                 : 'http://localhost:5174/'
             }
             target="_blank"
