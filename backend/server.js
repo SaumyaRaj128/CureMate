@@ -18,7 +18,7 @@ connectCloudinary()
 app.use(express.json())
 
 app.use(cors({
-  origin: ["https://cure-mate-k7bn.vercel.app/", "https://cure-mate-6xcx.vercel.app/"],
+  origin: ["https://cure-mate-k7bn.vercel.app", "https://cure-mate-6xcx.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
